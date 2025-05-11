@@ -18,31 +18,31 @@ function homeAddThree() {
     homeSc.textContent = homeScore
 }
 
-let guestScoreBtnOne = document.getElementById("guest-+1-btn")
-let guestScoreBtnTwo = document.getElementById("guest-+2-btn")
-let guestScoreBtnThree = document.getElementById("guest-+3-btn")
-let guestSc = document.getElementById("guest-score")
-let guestScore = 0
+let awayScoreBtnOne = document.getElementById("away-+1-btn")
+let awayScoreBtnTwo = document.getElementById("away-+2-btn")
+let awayScoreBtnThree = document.getElementById("away-+3-btn")
+let awaySc = document.getElementById("away-score")
+let awayScore = 0
 
-function guestAddOne() {
-    guestScore += 1
-    guestSc.textContent = guestScore
+function awayAddOne() {
+    awayScore += 1
+    awaySc.textContent = awayScore
 }
 
-function guestAddTwo() {
-    guestScore += 2
-    guestSc.textContent = guestScore
+function awayAddTwo() {
+    awayScore += 2
+    awaySc.textContent = awayScore
 }
-function guestAddThree() {
-    guestScore += 3
-    guestSc.textContent = guestScore
+function awayAddThree() {
+    awayScore += 3
+    awaySc.textContent = awayScore
 }
 
 function newGame() {
     homeScore = 0
-    guestScore = 0
+    awayScore = 0
 
     homeSc.textContent = 0
-    guestSc.textContent = 0
+    awaySc.textContent = 0
 }
 
